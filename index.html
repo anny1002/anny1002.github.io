@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-  $(document).ready(function($("button").addClass("animated bounce");){
 
-  });
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+  var _opacity = 0.3;
+  $('.yellow-background img').css('opacity', _opacity);
+  $("#list").hide();
+  $("#contact").click(function(){
+   $("#list").slideToggle("normal");
+});
+});
+  
+
 </script>
   <style>
     .yellow-background{
-    background-color:#FFF0AC;
+      background-image: url("http://img05.tooopen.com/images/20150922/tooopen_sy_143461327336.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
     }
+                     
     .blue-text{
     color:#5CADAD;
     text-align: center; 
@@ -42,24 +59,38 @@
      border-style: double;
      border-radius: 5%;}
     .header{
-    height:60px;
+    height:90px;
     background-color:#FFFF93;
     font-family:Edwardian Script ITC;
     font-size: 50px;
     text-align: center; 
 
     }
- 
+    .sidebar_left{
+    width: 120px;
+    background-color:#FFAF60;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;　
+    text-align: center; 
+　  float:center;　
+    height:400px;
+    }
+   
 </style>
 </head>
 <body>
-
-   <header class="header">Wellcome to my page!</header>
-   <body class="yellow-background">
-   <a href="pic"><img class="smaller-image image-border" src=https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14034832_1239810862715807_3889726127930889146_n.jpg?oh=d30f98339e139ecc99e2625c5d33edd4&oe=596B6B46>
-   <h2><a href="https://www.facebook.com/profile.php?id=100000607164992">My Facebook</a></h2>
-   <h2><a href="https://github.com/anny1002">My GitHub</a></h2>
-<div>
+<div class="container-fluid">
+  <header class="header"><marquee behavior=alternate>Wellcome to my page!</marquee></header>
+<h2 id="contact">Contact with me</h2>>
+       <span id="list">
+       <h2><a href="https://www.facebook.com/profile.php?id=100000607164992">My Facebook</a></h2>
+       <h2><a href="https://github.com/anny1002">My GitHub</a></h2>
+       </span>
+     </div>
+         <body class="yellow-background"></body> 
+   <a href="pic"><img class="smaller-image image-border" src=https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14034832_1239810862715807_3889726127930889146_n.jpg?oh=d30f98339e139ecc99e2625c5d33edd4&oe=596B6B46></a></img>
+ <div>
    <h1 class="blue-text">My Name:</h1>
    <p class = "blue-text">Yi-An,Chen</p>
    <h1 class="blue-text">About Me:</h1>
@@ -73,5 +104,10 @@
    <p class = "blue-text">dessert</p>
    <p class = "blue-text">JJ,Lin</p>
  </div>
- </body>
+        <div class="well">
+        <a href="https://www.google.com.tw/"><button class="sidebar_left" id="target1">homepage</button>
+        <a href="https://www.freecodecamp.com/"><button class="sidebar_left" id="target2">content</button>
+        <a href="#top">top</a>
+        </div>
+
  </html>

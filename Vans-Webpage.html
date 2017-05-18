@@ -1,0 +1,166 @@
+<head>
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+ul {
+	background-color:#e6e6e6;
+}
+ p {
+ font-family: monospace;
+    font-size: 15px;
+    /*text-align: center*/
+    color: grey;
+    position: relative;
+    top: -20px;
+    left:10;
+    width:180;
+ }
+ #face{ 
+ width:900px;
+ border:1px solid #b4b4b4;
+ height:650px;
+ margin:0 0 0 50px;
+ background:white;
+ }
+ 
+ #face input{
+ background:url(images/faceclose.gif) no-repeat center;
+ margin:0 0 0 140px;
+ float:left;
+ border:none;
+ cursor:pointer;
+ width:30px;
+ height:30px;
+ }
+ #facetitle{
+ font-weight:bold;
+ height:30px;
+ width:285px;
+ margin:3px 0 0 3px;
+ background:url(images/faceback.gif) repeat-x top left;
+ }
+ #facetitle span{
+ float:left;
+ color:#ffffff;
+ display:block;
+ height:30px;
+ line-height:30px;
+ width:100px;
+ margin:0 0 0 10px;
+ }
+ #faceul{
+ list-style-type:none;
+ margin:0 0 0 2px;
+ width:1000px;
+ }
+ #faceul li{
+ float:left;
+ border:1px solid #b4b4b4;
+ margin:5px 0 0 15px;
+ height:190px;
+ width:190px;
+ }
+ #faceul li a{
+ 
+display:block;
+ height:22px;
+ width:50px;
+ }
+ 
+#faceul img{
+ margin:-5px 0 0 5px;
+ border:none;
+ height:150px;
+ width:180px;
+ position: relative;
+ top:10px;
+ }
+body{ 
+         background-image:url("https://s-media-cache-ak0.pinimg.com/236x/eb/55/05/eb550509ccf7fd4b265e46f80bac4e9f.jpg");  
+       }
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div>
+  <ul class="nav nav-tabs">
+        <li><a href="#">Home</a></li>
+        
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Sock Dart</a></li>
+                <li><a href="#">Flyknit</a></li>
+                <li><a href="#">Rosherun</a></li>
+                <li><a href="#">Air Huarache</a></li>
+                <li><a href="#">All</a></li>
+            </ul>
+        </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Superstar</a></li>
+                <li><a href="#">NMD</a></li>
+                <li><a href="#">Tubular</a></li>
+                <li><a href="#">Stan Smith</a></li>
+                <li><a href="#">All</a></li>
+            </ul>
+        </li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">High Top</a></li>
+                <li><a href="#">Low Top</a></li>
+                <li><a href="#">All</a></li>
+            </ul>
+        </li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Old Skool</a></li>
+                <li><a href="#">Slip-On</a></li>
+                <li><a href="#">Authentic</a></li>
+                <li><a href="https://drive.google.com/file/d/0B5eXKfO3Rb8KUUFoY2dvY3lha1E/view?usp=sharing">All</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">$1000&darr;</a></li>
+                <li><a href="#">$1000~2000</a></li>
+                <li><a href="#">$2000~3000</a></li>
+                <li><a href="#">$4000&uarr;</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+
+ <div id="face">
+ <div id="facetitle">
+
+ <input id="faceclose" type="submit" value="" />
+ 	</div>
+ 		<ul id="faceul">
+ 			<li><a href="#"><img src="https://images.vans.com/is/image/VansEU/D3HY28-HERO?$PDP-FULL-IMAGE$">
+ 			<p>Old Skool</p></img></a></li>
+ 			<li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/originals/3e/4c/42/3e4c42e60c78e8a8bfee312138b466d8.jpg"><p>Old Skool</p></img></a></li>
+ 			<li><a href="#"><img src="https://images.vans.com/is/image/Vans/18GEWB-HERO?$583x583$"><p>Old Skool</p></img></a></li>
+ 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/3Z6IB9-HERO?$583x583$"><p>Old Skool</p></img></a></li>
+ 			
+ 			<li><a href="#"><img src="https://cdn.ccs.com/media/catalog/product/cache/4/image/550x/17f82f742ffe127f42dca9de82fb58b1/v/a/vans-slip-on-pro-shoes-black-white-gum-2.1490733482.jpg"></img><p>Slip-On</p></a></li>
+ 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEW00-HERO?$583x583$"></img><p>Slip-On</p></a></li>
+ 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEBWW-HERO?$583x583$"></img><p>Slip-On</p></a></li>
+
+ 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EE3BLK-HERO?$583x583$"></img><p>Authentic</p></a></li>
+ 			<li><a href="#"><img src="https://media.journeys.com/images/products/1_65711_ZM_ALT1.JPG"></img><p>Authentic</p></a></li>
+ 			<li><a href="#"><img src="https://images.vans.com/is/image/Vans/EE3BKA-HERO?$920x920$"></img><p>Authentic</p></a></li>
+
+
+		</ul>
+ </div>
+
+
+
+</body>

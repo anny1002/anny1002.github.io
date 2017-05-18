@@ -1,0 +1,170 @@
+<head>
+  <title>Bootstrap Navigation Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style type="text/css">
+ul {
+  background-color:black;
+}
+ p {
+ font-family: monospace;
+    font-size: 15px;
+    /*text-align: center*/
+    color: grey;
+    position: relative;
+    top: 0px;
+    left:10;
+    width:180;
+ }
+ #face{ 
+ width:900px;
+ border:1px solid #b4b4b4;
+ height:650px;
+ margin:0 0 0 50px;
+ background:white;
+ }
+ 
+ #face input{
+ background:url(images/faceclose.gif) no-repeat center;
+ margin:0 0 0 140px;
+ float:left;
+ border:none;
+ cursor:pointer;
+ width:30px;
+ height:30px;
+ }
+ #facetitle{
+ font-weight:bold;
+ height:30px;
+ width:285px;
+ margin:3px 0 0 3px;
+ background:url(images/faceback.gif) repeat-x top left;
+ }
+ #facetitle span{
+ float:left;
+ color:#ffffff;
+ display:block;
+ height:30px;
+ line-height:30px;
+ width:100px;
+ margin:0 0 0 10px;
+ }
+ #faceul{
+ list-style-type:none;
+ margin:0 0 0 2px;
+ width:1000px;
+ }
+ #faceul li{
+ float:left;
+ border:1px solid #b4b4b4;
+ margin:5px 0 0 15px;
+ height:190px;
+ width:190px;
+ }
+ #faceul li a{
+ 
+display:block;
+ height:22px;
+ width:50px;
+ }
+ 
+#faceul img{
+ margin:-5px 0 0 5px;
+ border:none;
+ height:150px;
+ width:180px;
+ position: relative;
+ top:10px;
+ }
+body{ 
+         background-image:url("https://scontent.xx.fbcdn.net/v/t1.0-9/18403342_1779357328747766_2191486604674941978_n.jpg?oh=0320102c51da0af027083844a6a66704&oe=5980CD03");  
+       }
+</style>
+</head>
+<body>
+<div>
+  <ul class="nav nav-tabs">
+        <li><a href="#">Home</a></li>
+        
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Sock Dart</a></li>
+                <li><a href="#">Flyknit</a></li>
+                <li><a href="#">Rosherun</a></li>
+                <li><a href="#">Air Huarache</a></li>
+                <li><a href="#">All</a></li>
+               
+            </ul>
+        </li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Superstar</a></li>
+                <li><a href="#">NMD</a></li>
+                <li><a href="#">Tubular</a></li>
+                <li><a href="#">Stan Smith</a></li>
+                <li><a href="#">All</a></li>
+              
+            </ul>
+        </li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">High Top</a></li>
+                <li><a href="#">Low Top</a></li>
+                <li><a href="#">All</a></li>
+            </ul>
+        </li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Old Skool</a></li>
+                <li><a href="#">Slip-On</a></li>
+                <li><a href="#">Authentic</a></li>
+                <li><a href="#">All</a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">$1000&darr;</a></li>
+                <li><a href="#">$1000~2000</a></li>
+                <li><a href="#">$2000~3000</a></li>
+                <li><a href="#">$4000&uarr;</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+
+ <div id="face">
+ <div id="facetitle">
+
+ <input id="faceclose" type="submit" value="" />
+  </div>
+    <ul id="faceul">
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18447457_1779552312061601_8681559183404519866_n.jpg?oh=142716dcc1813702cc85e40d82aaa72a&oe=59BC8A27">
+      <p>Sock Dart</p></img></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18447394_1779552305394935_5336865091538163255_n.jpg?oh=dedcabe6560008fe8e895a2a23e362d3&oe=59ADFC94"><p>Sock Dart</p></img></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18342616_1779552282061604_8344598246230631180_n.jpg?oh=93a1efbfbd018336cfb8321022e7c233&oe=597ACB62"><p>Sock Dart</p></img></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18425340_1779552278728271_9122564052552106378_n.jpg?oh=50ffcf9faa4b925e1c2213797a2b82b3&oe=59C091F3"><p>Sock Dart</p></img></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p480x480/18403469_1314512771996710_3215901601818050718_n.jpg?oh=76460da2d2f4ce7f727f7897ad611104&oe=59B4305E"></img><P>Sock Dart</p></a></li>
+
+      <li><a href="#"><img src="http://d2p1ovod81kcns.cloudfront.net/400_ffeb989a6c182dc084a3ace495e08677.png"></img><p>Flyknit</p></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18447155_1779563982060434_726156614708607025_n.jpg?oh=023ca4d1402f82cfad1d340a7c9798ca&oe=5974F909"></img><p>Flyknit</p></a></li>
+
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18423772_1779572192059613_6612550911782184834_n.jpg?oh=78a333f192cc39534f90817551f5e987&oe=597CE357"></img><p>Rosherun</p></a></li>
+      <li><a href="#"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18274929_1771187212898111_5639026966871489068_n.jpg?oh=6a1babd9c0215c57dcee7c05e30eb780&oe=5986A158"></img><p>Rosherun</p></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18424020_1779577535392412_7325956471637563135_n.jpg?oh=57e25fb3e73a86a427b5a3d9b82d8f26&oe=597BF2A6"></img><p>Rosherun</p></a></li>
+
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18402806_1779563978727101_2634970068534168898_n.jpg?oh=642a49e89711a3bb2554dbbc9f29772f&oe=59BF37BC"></img><p>Air Huarache</p></a></li>
+      <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18424074_1779552778728221_3374253424735857681_n.jpg?oh=4f3454fffe840b86d10b7bcdc6453434&oe=597E27CD"></img><p>Air Huarache</p></a></li>
+
+      
+
+
+    </ul>
+ </div>
+
+
+
+</body>

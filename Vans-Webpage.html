@@ -1,24 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Bootstrap Navigation Bar</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;position: relative;left: -160px}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px; width:13px; padding:0; position:relative; left:-140px}
-
-<style type="text/css">
-ul {
-	background-color:#e6e6e6;
-}
+  <style type="text/css">
  p {
  font-family: monospace;
     font-size: 15px;
@@ -26,14 +15,9 @@ ul {
     color: grey;
     position: relative;
     top: -20px;
-    left:10;
+    left:15;
     width:180;
  }
-bar{
-  position: relative;
-  left:-160px;
-  padding-left: 40px;
-}
  #face{ 
  width:900px;
  border:1px solid #b4b4b4;
@@ -94,7 +78,7 @@ display:block;
  position: relative;
  top:10px;
  }
-body{ 
+ body{ 
          background-image:url("https://s-media-cache-ak0.pinimg.com/236x/eb/55/05/eb550509ccf7fd4b265e46f80bac4e9f.jpg");  
        }
 </style>
@@ -103,16 +87,15 @@ body{
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-<div>
+
 <nav class="navbar navbar-inverse">
-  <bar class="container-fluid">
-    <bar class="navbar-header">
+  <div class="container-fluid">
+    <div class="navbar-header">
       <a class="navbar-brand" href="#"></a>
-    </bar>
-  <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        
-       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Sock Dart</a></li>
                 <li><a href="#">Flyknit</a></li>
@@ -153,36 +136,31 @@ body{
                 <li><a href="#">$4000&uarr;</a></li>
             </ul>
         </li>
-    </ul>
-     </bar>
-    </div>
-
-
+  </div>
+</nav>
+  
  <div id="face">
  <div id="facetitle">
 
  <input id="faceclose" type="submit" value="" />
- 	</div>
- 		<ul id="faceul">
- 			<li><a href="#"><img src="https://images.vans.com/is/image/VansEU/D3HY28-HERO?$PDP-FULL-IMAGE$">
- 			<p>Old Skool</p></img></a></li>
- 			<li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/originals/3e/4c/42/3e4c42e60c78e8a8bfee312138b466d8.jpg"><p>Old Skool</p></img></a></li>
- 			<li><a href="#"><img src="https://images.vans.com/is/image/Vans/18GEWB-HERO?$583x583$"><p>Old Skool</p></img></a></li>
- 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/3Z6IB9-HERO?$583x583$"><p>Old Skool</p></img></a></li>
- 			
- 			<li><a href="#"><img src="https://cdn.ccs.com/media/catalog/product/cache/4/image/550x/17f82f742ffe127f42dca9de82fb58b1/v/a/vans-slip-on-pro-shoes-black-white-gum-2.1490733482.jpg"></img><p>Slip-On</p></a></li>
- 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEW00-HERO?$583x583$"></img><p>Slip-On</p></a></li>
- 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEBWW-HERO?$583x583$"></img><p>Slip-On</p></a></li>
+  </div>
+    <ul id="faceul">
+      <li><a href="#"><img src="https://images.vans.com/is/image/VansEU/D3HY28-HERO?$PDP-FULL-IMAGE$">
+      <p>Old Skool</p></img></a></li>
+      <li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/originals/3e/4c/42/3e4c42e60c78e8a8bfee312138b466d8.jpg"><p>Old Skool</p></img></a></li>
+      <li><a href="#"><img src="https://images.vans.com/is/image/Vans/18GEWB-HERO?$583x583$"><p>Old Skool</p></img></a></li>
+      <li><a href="#"><img src="http://images.vans.com/is/image/Vans/3Z6IB9-HERO?$583x583$"><p>Old Skool</p></img></a></li>
+      
+      <li><a href="#"><img src="https://cdn.ccs.com/media/catalog/product/cache/4/image/550x/17f82f742ffe127f42dca9de82fb58b1/v/a/vans-slip-on-pro-shoes-black-white-gum-2.1490733482.jpg"></img><p>Slip-On</p></a></li>
+      <li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEW00-HERO?$583x583$"></img><p>Slip-On</p></a></li>
+      <li><a href="#"><img src="http://images.vans.com/is/image/Vans/EYEBWW-HERO?$583x583$"></img><p>Slip-On</p></a></li>
 
- 			<li><a href="#"><img src="http://images.vans.com/is/image/Vans/EE3BLK-HERO?$583x583$"></img><p>Authentic</p></a></li>
- 			<li><a href="#"><img src="https://media.journeys.com/images/products/1_65711_ZM_ALT1.JPG"></img><p>Authentic</p></a></li>
- 			<li><a href="#"><img src="https://images.vans.com/is/image/Vans/EE3BKA-HERO?$920x920$"></img><p>Authentic</p></a></li>
+      <li><a href="#"><img src="http://images.vans.com/is/image/Vans/EE3BLK-HERO?$583x583$"></img><p>Authentic</p></a></li>
+      <li><a href="#"><img src="https://media.journeys.com/images/products/1_65711_ZM_ALT1.JPG"></img><p>Authentic</p></a></li>
+      <li><a href="#"><img src="https://images.vans.com/is/image/Vans/EE3BKA-HERO?$920x920$"></img><p>Authentic</p></a></li>
 
 
-		</ul>
+    </ul>
  </div>
-
-
-
 </body>
 </html>

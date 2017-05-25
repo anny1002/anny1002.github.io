@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+<html>
+ <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;position: relative;left: -160px}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px; width:13px; padding:0; position:relative; left:-140px}
+div{
+  position: relative;
+  left:-160px;
+  padding-left: 40px;
+}
+h2{
+  position: relative;
+  right: -500px;
+}
+h4{
+  position: relative;
+  right: -500px;
+}
+p{
+  position: relative;
+  right: -375px;
+}
+b{
+  position: relative;
+  right: -395px;
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                <li><a href="#">Sock Dart</a></li>
+                <li><a href="#">Flyknit</a></li>
+                <li><a href="#">Rosherun</a></li>
+                <li><a href="#">Air Huarache</a></li>
+                <li><a href="#">All</a></li>
+        </ul>
+      </li>
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                <li><a href="#">Superstar</a></li>
+                <li><a href="#">NMD</a></li>
+                <li><a href="#">Tubular</a></li>
+                <li><a href="#">Stan Smith</a></li>
+                <li><a href="#">All</a></li>
+        </ul>
+        </li>
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                <li><a href="#">High Top</a></li>
+                <li><a href="#">Low Top</a></li>
+                <li><a href="#">All</a></li>
+        </ul>
+        </li>
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                <li><a href="#">Old Skool</a></li>
+                <li><a href="#">Slip-On</a></li>
+                <li><a href="#">Authentic</a></li>
+                <li><a href="#">All</a></li>
+        </ul>
+        </li>
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+                <li><a href="#">$1000&darr;</a></li>
+                <li><a href="#">$1000~2000</a></li>
+                <li><a href="#">$2000~3000</a></li>
+                <li><a href="#">$4000&uarr;</a></li>
+        </ul>
+</li>
+  </div>
+</nav>
+  
+<div class="w3-container">
+
+</div>
+<div class="w3-content w3-display-container" style="max-width:480px">
+  <img class="mySlides" src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p480x480/18341840_1779519528731546_1302438511245798667_n.jpg?oh=e5162d2d60a1dcb7ab893a458148416f&oe=59BAE4E8" style="width:100%">
+  <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t1.0-0/p480x480/18268504_1771265472890285_1403486173474602906_n.jpg?oh=51c626f29433365a8d99d8f2169c4b87&oe=598B0FF3" style="width:100%">
+  <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t1.0-9/18198729_1771267006223465_550414657656794038_n.jpg?oh=8235ddc37bd8d648a893af8ff4de0420&oe=59C1731E" style="width:100%">
+  <img class="mySlides" src="https://scontent.xx.fbcdn.net/v/t1.0-9/18222516_1771267952890037_6184957583318838071_n.jpg?oh=5fd5a1256264e33d52fb1c8c3884a835&oe=597CFD93" style="width:100%">
+  <img class="mySlides" src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p240x240/18425145_1779535625396603_365471118767838593_n.jpg?oh=60b2453f96aefc4c1cc65fc9e8e1a564&oe=59AF8E5D" style="width:100%">
+  <img class="mySlides" src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p480x480/18403076_1779534092063423_4467707178227501543_n.jpg?oh=b439a6c35d8c9979ebdf58ce5f951da0&oe=59792430" style="width:100%">  
+  <div class="w3-center w3-container w3-section w3-large w3-text-grey w3-display-bottommiddle" style="width:100%">
+   
+    <h2 align="left">Converse - High Top<hr></h3>
+    <h4 align="left">價錢:NT$2000</h4>
+
+<br>
+<b>
+<label><input type="radio" name="color" value="black">白色</label>
+<label><input type="radio" name="color" value="white">黑色</label>
+<label><input type="radio" name="color" value="pink">粉色</label>
+<label><input type="radio" name="color" value="checkerboard">紅色</label>
+<label><input type="radio" name="color" value="pink">川久保玲-黑</label>
+<label><input type="radio" name="color" value="checkerboard">川久保玲-白</label>
+</b>
+
+<form><br>
+<select name="pairs" style="position: relative;right: -347px">
+<option value="尺寸">選擇尺寸(cm)</option>
+ <option value="22.5">22.5</option>
+ <option value="23">23</option>
+ <option value="23.5">23.5</option>
+ <option value="24">24</option>
+ <option value="24.5">24.5</option>
+ <option value="25">25</option>
+ <option value="25.5">25.5</option>
+ <option value="26">26</option>
+ <option value="26.5">26.5</option>
+ <option value="27">27</option>
+ <option value="27.5">27.5</option>
+ <option value="28">28</option>
+</select>
+</form>
+<br>
+
+<form>
+<select name="pairs" style="position: relative;right: -325px">
+<option value="選擇數目">選擇數目</option>
+ <option value="one">1</option>
+ <option value="two">2</option>
+ <option value="three">3</option>
+ <option value="four">4</option>
+ <option value="five">5</option>
+ <option value="six">6</option>
+</select>
+</form>
+
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-gery" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-grey" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-grey" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-grey" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-grey" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-grey" onclick="currentDiv(6)"></span>
+  </div>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-grey", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-grey";
+}
+</script>
+
+
+</body>
+</html> 

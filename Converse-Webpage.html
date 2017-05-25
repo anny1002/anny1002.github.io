@@ -1,28 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Bootstrap Navigation Bar</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<style type="text/css">
-ul {
-  background-color:black;
-}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
  p {
  font-family: monospace;
     font-size: 15px;
     /*text-align: center*/
     color: grey;
     position: relative;
-    top: 0px;
-    left:10;
+    top: -20px;
+    left:15;
     width:180;
  }
  #face{ 
  width:900px;
  border:1px solid #b4b4b4;
- height:670px;
+ height:650px;
  margin:0 0 0 50px;
  background:white;
  }
@@ -79,24 +78,30 @@ display:block;
  position: relative;
  top:10px;
  }
-body{ 
-         background-image:url("https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p480x480/18446648_1779509425399223_3458734679021770764_n.jpg?oh=73fd6c1dc9e13b405a140fea3661c6cd&oe=59B0351F");  
+ body{ 
+         background-image:url("https://s-media-cache-ak0.pinimg.com/236x/eb/55/05/eb550509ccf7fd4b265e46f80bac4e9f.jpg");  
        }
 </style>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-<div>
-  <ul class="nav nav-tabs">
-        <li><a href="#">Home</a></li>
-        
-       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Sock Dart</a></li>
                 <li><a href="#">Flyknit</a></li>
                 <li><a href="#">Rosherun</a></li>
                 <li><a href="#">Air Huarache</a></li>
-                <li><a href="#">All</a></li>
-               
+                <li><a href="https://anny1002.github.io/Nike-Webpage">All</a></li>
             </ul>
         </li>
               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas<span class="caret"></span></a>
@@ -105,15 +110,14 @@ body{
                 <li><a href="#">NMD</a></li>
                 <li><a href="#">Tubular</a></li>
                 <li><a href="#">Stan Smith</a></li>
-                <li><a href="#">All</a></li>
-              
+                <li><a href="https://anny1002.github.io/Adidas-Webpage">All</a></li>
             </ul>
         </li>
              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse<span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#">High Top</a></li>
                 <li><a href="#">Low Top</a></li>
-                <li><a href="#">All</a></li>
+                <li><a href="https://anny1002.github.io/Converse-Webpage">All</a></li>
             </ul>
         </li>
              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans<span class="caret"></span></a>
@@ -121,7 +125,7 @@ body{
                 <li><a href="#">Old Skool</a></li>
                 <li><a href="#">Slip-On</a></li>
                 <li><a href="#">Authentic</a></li>
-                <li><a href="#">All</a></li>
+                <li><a href="https://drive.google.com/file/d/0B5eXKfO3Rb8KUUFoY2dvY3lha1E/view?usp=sharing">All</a></li>
             </ul>
         </li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price<span class="caret"></span></a>
@@ -132,10 +136,9 @@ body{
                 <li><a href="#">$4000&uarr;</a></li>
             </ul>
         </li>
-    </ul>
-    </div>
-
-
+  </div>
+</nav>
+  
  <div id="face">
  <div id="facetitle">
 
@@ -155,12 +158,9 @@ body{
       <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/18341855_1779523912064441_8145515364876847622_n.jpg?oh=dcddda43ec047a92321ad1ce03e23ae2&oe=5977530D"></img><p>Low Top</p></a></li>
       <li><a href="#"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/p480x480/18402697_1779531502063682_903508637073563454_n.jpg?oh=2bba082fdefc8a5f4b39224736eee530&oe=597D3FEC"></img><p>Low Top</p></a></li>
       <li><a href="#"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18198654_1771273329556166_4098731542344279648_n.jpg?oh=a5e64ff21a36421c18700f3894187438&oe=59896F1F"></img><p>Low Top</p></a></li>
-      
 
 
     </ul>
  </div>
-
-
-
 </body>
+</html>

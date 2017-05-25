@@ -26,7 +26,11 @@ ul {
  margin:0 0 0 50px;
  background:white;
  }
- 
+ div{
+  position: relative;
+  left:-160px;
+  padding-left: 40px;
+}
  #face input{
  background:url(images/faceclose.gif) no-repeat center;
  margin:0 0 0 140px;
@@ -85,55 +89,56 @@ body{
 </style>
 </head>
 <body>
-<div>
-  <ul class="nav nav-tabs">
-       <li><a href="#">Home</a></li>
-        
-       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike<span class="caret"></span></a>
-            <ul class="dropdown-menu">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Nike <span class="caret"></span></a>
+        <ul class="dropdown-menu">
                 <li><a href="#">Sock Dart</a></li>
                 <li><a href="#">Flyknit</a></li>
                 <li><a href="#">Rosherun</a></li>
                 <li><a href="#">Air Huarache</a></li>
                 <li><a href="#">All</a></li>
-               
-            </ul>
-        </li>
-              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas<span class="caret"></span></a>
-            <ul class="dropdown-menu">
+        </ul>
+      </li>
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Adidas <span class="caret"></span></a>
+        <ul class="dropdown-menu">
                 <li><a href="#">Superstar</a></li>
                 <li><a href="#">NMD</a></li>
                 <li><a href="#">Tubular</a></li>
                 <li><a href="#">Stan Smith</a></li>
                 <li><a href="#">All</a></li>
-              
-            </ul>
+        </ul>
         </li>
-             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse<span class="caret"></span></a>
-            <ul class="dropdown-menu">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Converse <span class="caret"></span></a>
+        <ul class="dropdown-menu">
                 <li><a href="#">High Top</a></li>
                 <li><a href="#">Low Top</a></li>
                 <li><a href="#">All</a></li>
-            </ul>
+        </ul>
         </li>
-             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans<span class="caret"></span></a>
-            <ul class="dropdown-menu">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Vans <span class="caret"></span></a>
+        <ul class="dropdown-menu">
                 <li><a href="#">Old Skool</a></li>
                 <li><a href="#">Slip-On</a></li>
                 <li><a href="#">Authentic</a></li>
                 <li><a href="#">All</a></li>
-            </ul>
+        </ul>
         </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price<span class="caret"></span></a>
-            <ul class="dropdown-menu">
+     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Price <span class="caret"></span></a>
+        <ul class="dropdown-menu">
                 <li><a href="#">$1000&darr;</a></li>
                 <li><a href="#">$1000~2000</a></li>
                 <li><a href="#">$2000~3000</a></li>
                 <li><a href="#">$4000&uarr;</a></li>
-            </ul>
-        </li>
-    </ul>
-    </div>
+        </ul>
+</li>
+  </div>
+</nav>
 
 
  <div id="face">

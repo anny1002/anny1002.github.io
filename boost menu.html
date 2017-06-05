@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#Jonathan {background-color: #80bfff;}
+#Anny {background-color:#ffff66;}
+#Alice {background-color:pink;}
+#Wendy {background-color: #dd99ff;}
+</style>
+</head>
+<body>
+
+
+
+<div id="Jonathan" class="tabcontent">
+<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/16194916_1207443026037019_4506017592864743416_n.jpg?oh=1e72f7f9ff1c384e305d28f9304a2cbc&oe=59E0E751" alt="Mountain View" style="width:250px;height:250px;">
+  <h3>Jonathan</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Anny" class="tabcontent">
+<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/13873247_1234731713223722_6724067784909766961_n.jpg?oh=f8d9a98e882eb016ac8c3f9b08493e65&oe=59AF8F6B" alt="Mountain View" style="width:250px;height:250px;">
+  <h3>Anny</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Alice" class="tabcontent">
+<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/15439849_1593121127371388_6482967813226960875_n.jpg?oh=5408f9807fcb1ef34d435dc51786ba44&oe=59E0604B" alt="Mountain View" style="width:250px;height:250px;">
+  <h3>Alice</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Wendy" class="tabcontent">
+<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/18838815_1733580083325445_6874755384452463615_n.jpg?oh=2a184337d64d32eba8531f9277ceda7e&oe=59A79EB6" alt="Mountain View" style="width:250px;height:250px;">
+  <h3>Wendy</h3>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openCity('Jonathan', this, ' #80bfff')" id="defaultOpen">Jonathan</button>
+<button class="tablink" onclick="openCity('Anny', this, '#ffff66')">Anny</button>
+<button class="tablink" onclick="openCity('Alice', this, 'pink')">Alice</button>
+<button class="tablink" onclick="openCity('Wendy', this, ' #dd99ff')">Wendy</button>
+
+<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
